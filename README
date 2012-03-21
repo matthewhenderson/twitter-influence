@@ -1,4 +1,4 @@
-This script is intended to help examine the potential influence an individual has on Twitter by graphing the relationships between that user, their followers (level 1), and the followers (level 2) of those followers (level 1). 
+This script is intended to help examine the potential influence an individual has on Twitter by graphing the relationships between that user, their followers (level 1), and the followers (level 2) of those followers (level 1). In other words, if a user were to be re-tweeted by all of their followers, how many users could they potentially reach in the process; this is what is depicted in the resulting constellation graph.
 
 The constellation graphs produced are usually quite large. 
 Graph Examples: 
