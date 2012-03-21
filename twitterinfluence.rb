@@ -116,6 +116,6 @@ puts "************************************"
 puts "Run the following command."
 puts "Requires graphviz."
 puts "http://www.graphviz.org/ \n\n"
-puts "more #{@writefile} | grep '-' | cat <(echo 'digraph mentions {') - <(echo '}') | sfdp -Gbgcolor=white -Ncolor='#660000' -Ecolor='#660000' -Nwidth=0.1 -Nheight=0.1 -Nfixedsize=true -Nlabel='' -Earrowsize=0.7 -Gsize=50 -Gratio=fill -Tpng > twitterinfluence-#{@username}.png"
+puts "more #{@writefile} | sfdp -Gbgcolor=white -Ncolor='#660000' -Ecolor='#660000' -Nwidth=0.1 -Nheight=0.1 -Nfixedsize=true -Nlabel='' -Earrowsize=0.7 -Gsize=50 -Gratio=fill -Tpng > twitterinfluence-#{@username}.png"
 
 
