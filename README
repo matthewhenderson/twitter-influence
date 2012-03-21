@@ -1,0 +1,12 @@
+This script is intended to help examine the potential influence an individual has on Twitter by graphing the relationships between that user, their followers (level 1), and the followers (level 2) of those followers (level 1). 
+
+The graphs produced are usually quite large. 
+Graph Examples: 
+Small version of the full graph: http://matthew-henderson.com/github/twitterinfluence-full.png
+Detail example at actual size: http://matthew-henderson.com/github/twitterinfluence-detail.png
+
+This script requires the following: 
+	twitter gem (https://github.com/jnunemaker/twitter)
+	graphviz (http://www.graphviz.org/)
+	
+	
