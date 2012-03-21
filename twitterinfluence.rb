@@ -103,7 +103,7 @@ end
 
 ## get the Twitter userame to be examined
 puts "Which Twitter user do you want to research?"
-print '> '
+puts '> '
 @username = STDIN.gets.chomp()
 gettwitterinfluence
 
